@@ -1,0 +1,29 @@
+{
+  "name": "livequeryurl",
+  "version": "1.0.3",
+  "description": "Update the browser query live without any reloads",
+  "main": "livequeryurl.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "live",
+    "query",
+    "url",
+    "live",
+    "browser",
+    "url",
+    "update",
+    "browser",
+    "url",
+    "browser",
+    "url",
+    "updater"
+  ],
+  "author": "Noah Imamkhan",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/s1129092/LiveQueryURL"
+  }
+}
