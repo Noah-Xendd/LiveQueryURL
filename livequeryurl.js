@@ -2,7 +2,7 @@
  * Package Name: LiveQueryURL
  * License: MIT
  * Made by: Noah Imamkhan
- * Version: 1.0.0
+ * Version: 1.0.6
  * Github: https://github.com/s1129092/LiveQueryURL
 */
 
@@ -57,6 +57,44 @@ module.exports = class LiveQueryURL {
       }
       // Push new url to browser
       window.history.pushState('data', 'F', new_url);
+    }
+
+    removeQuery(key) {
+        var currentURL = (document.URL)
+        var query = currentURL.split('?')[1]
+        var new_url = '?'
+        var existing_params;
+
+        var new_existing_params = [];
+
+        // check if URl has existing query string
+        if (currentURL.includes('?')) {
+            existing_params = query.split('&')
+
+            existing_params.forEach((param, index) => {
+
+                var existing_param_key = param.split('=')[0]
+
+                if (param.startsWith(key) && existing_param_key.length === key.length) {
+
+
+                } else {
+                    new_existing_params.push(param)
+                }
+            })
+
+            new_existing_params.forEach((param, index) => {
+                if (index == 0) {
+                    new_url += param
+                } else {
+
+                    new_url += `&${param}`
+                }
+            })
+        }
+
+        // Push new url to browser
+        window.history.pushState('data', 'F', new_url);
     }
   }
 

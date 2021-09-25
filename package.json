@@ -1,6 +1,6 @@
 {
   "name": "livequeryurl",
-  "version": "1.0.4",
+  "version": "1.0.6",
   "description": "Update the browser query live without any reloads",
   "main": "livequeryurl.js",
   "scripts": {
