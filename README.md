@@ -1,5 +1,5 @@
 # LiveQueryURL
-Add, update or delete paramters from the browser query live without any page reload. This package uses the `pushState` method.
+Add, update or delete paramaters from the browser query live without any page reload. This package uses the `pushState` method.
 
 ![image description](https://i.ibb.co/jRCKdTs/example.gif)
 

@@ -18,7 +18,9 @@
     "url",
     "browser",
     "url",
-    "updater"
+    "updater",
+    "param",
+    "paramaters"
   ],
   "author": "Noah Imamkhan",
   "license": "MIT",
