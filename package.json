@@ -1,6 +1,6 @@
 {
   "name": "livequeryurl",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "Update the browser query live without any reloads",
   "main": "livequeryurl.js",
   "scripts": {
@@ -26,6 +26,6 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/s1129092/LiveQueryURL"
+    "url": "https://github.com/Noah-Xendd/LiveQueryURL"
   }
 }
